@@ -21,7 +21,7 @@ exports[`should render expenses totoal with multiple expenses 1`] = `
     Viewing 
     3
      
-    expneses
+    expnses
      totaling 
     $1,141.95
   </h1>
