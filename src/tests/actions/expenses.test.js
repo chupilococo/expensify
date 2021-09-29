@@ -51,10 +51,10 @@ test('should add expense with defaults to database and store ', (done) => {
     note: 'test',
     createdAt: 1000
   }
-  // store.dispatch(startAddExpense(expeneseData)).then(() => {
-  //   expect(1).toBe(2)
-  //   done();
-  // });
+  store.dispatch(startAddExpense(expeneseData)).then(() => {
+    expect(1).toBe(2)
+    done();
+  });
 });
 
 // test('should setup add expense action object with default values', () => {
