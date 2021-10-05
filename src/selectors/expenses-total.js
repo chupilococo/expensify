@@ -1,7 +1,5 @@
 export default (expenses) => {
-    let total = 0;
-    expenses.forEach(expense => {
-        total += expense.amount
-    });
-    return total;
-}
+  return expenses
+      .map((expense) => expense.amount)
+      .reduce((sum, value) => sum + value, 0);
+};
